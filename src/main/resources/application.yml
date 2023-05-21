@@ -1,0 +1,12 @@
+
+server:
+  port: 8081
+spring:
+  application:
+    name: udevelopers-proyecto-api-rest-producto-mongo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tiendaropa
+      #uri: mongodb://localhost/tiendaropa
