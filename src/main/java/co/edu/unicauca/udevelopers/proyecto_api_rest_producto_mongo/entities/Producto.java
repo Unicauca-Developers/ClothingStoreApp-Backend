@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import co.edu.unicauca.udevelopers.proyecto_api_rest_producto_mongo.dtos.ProductoDTO;
 
 @Document(value = "producto")
-@JsonPropertyOrder({"id", "nombre","descripcion", ",marca","referencia", "material","precio", "color"})
+@JsonPropertyOrder({"id", "nombre","descripcion", ",marca","referencia", "material","precio"})
 public class Producto {    
 
     @Id
