@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar target/proyecto_api_rest_producto_mongo-0.0.1-SNAPSHOT.jar
